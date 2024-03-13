@@ -1,0 +1,22 @@
+{
+  "name": "@dms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "pnpm -r --filter=@dms/* run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "qiankun": "^2.10.16",
+    "vite-plugin-qiankun": "^1.0.15"
+  }
+}
